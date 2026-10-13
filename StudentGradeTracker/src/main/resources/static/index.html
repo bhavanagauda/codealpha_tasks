@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Student Grade Tracker - Dashboard</title> <link rel="stylesheet" href="style.css"> </head>
+
+<body>
+
+<header class="navbar"> <div class="logo">🎓 Student Grade Tracker</div>
+
+<nav>
+    <a href="index.html" class="active">Dashboard</a>
+    <a href="students.html">Students</a>
+    <a href="add-student.html">Add Student</a>
+    <a href="statistics.html">Statistics</a>
+    <a href="report.html">Reports</a>
+</nav>
+
+</header>
+
+<main class="container">
+
+<section class="hero">
+    <h1>Student Grade Tracker</h1>
+    <p>
+        Manage students, grades, statistics and academic reports
+        from one place.
+    </p>
+
+    <a href="add-student.html" class="btn">
+        + Add Student
+    </a>
+</section>
+
+<section class="stats-grid">
+
+    <div class="stat-card">
+        <h3>Total Students</h3>
+        <p id="totalStudents">0</p>
+    </div>
+
+    <div class="stat-card">
+        <h3>Average Score</h3>
+        <p id="averageScore">0</p>
+    </div>
+
+    <div class="stat-card">
+        <h3>Highest Score</h3>
+        <p id="highestScore">0</p>
+    </div>
+
+    <div class="stat-card">
+        <h3>Lowest Score</h3>
+        <p id="lowestScore">0</p>
+    </div>
+
+</section>
+
+<section class="dashboard-links">
+
+    <div class="dashboard-card">
+        <h2>👨‍🎓 Students</h2>
+        <p>View and manage all student records.</p>
+        <a href="students.html" class="btn">View Students</a>
+    </div>
+
+    <div class="dashboard-card">
+        <h2>➕ Add Student</h2>
+        <p>Add a new student and grade.</p>
+        <a href="add-student.html" class="btn">Add Student</a>
+    </div>
+
+    <div class="dashboard-card">
+        <h2>📊 Statistics</h2>
+        <p>View academic performance statistics.</p>
+        <a href="statistics.html" class="btn">View Statistics</a>
+    </div>
+
+    <div class="dashboard-card">
+        <h2>📄 Reports</h2>
+        <p>View the complete student report.</p>
+        <a href="report.html" class="btn">View Reports</a>
+    </div>
+
+</section>
+
+</main>
+
+<footer> <p>© 2026 Student Grade Tracker</p> </footer>
+
+<script src="script.js"></script>
+
+</body> </html>

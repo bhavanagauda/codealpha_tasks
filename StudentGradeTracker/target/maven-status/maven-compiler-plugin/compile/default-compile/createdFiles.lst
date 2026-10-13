@@ -1,0 +1,5 @@
+com\studenttracker\controller\StudentController.class
+com\studenttracker\model\Student.class
+com\studenttracker\StudentGradeTrackerApplication.class
+com\studenttracker\controller\StudentController$Statistics.class
+com\studenttracker\repository\StudentRepository.class
